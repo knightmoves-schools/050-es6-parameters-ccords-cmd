@@ -3,9 +3,10 @@ function calculateTotal(subtotal, shipping) {
 };
 calculateTotal(shipping) = 2.50;
 function printTopThreeHeadlines(...value) {
-  return value[0];
+  return value;
 }
 printTopThreeHeadlines(`first headline\nsecond headline\nthird headline`);
+
 
 
 
