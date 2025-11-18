@@ -6,5 +6,5 @@ function calculateTotal(subtotal, shipping) {
 function printTopThreeHeadlines() {
   return `firstHeadline \n secondHeadline \n thirdHeadline`;
 };
-result = return printTopThreeHeadlines();
+result = printTopThreeHeadlines();
 document.getElementById("result").innerHTML = result;
