@@ -4,7 +4,7 @@ function calculateTotal(subtotal, shipping) {
   return subtotal + shipping;
 };
 function printTopThreeHeadlines(...value) {
-  return value[0] + value[1] + value[2];
+  return `value[0] \n value[1] \n value[2]`;
 }
 const value = (`firstheadline \n secondheadline \n thirdheadline`);
 const result = printTopThreeHeadlines(value);
