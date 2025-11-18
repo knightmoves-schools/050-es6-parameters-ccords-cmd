@@ -1,10 +1,8 @@
-const shipping = 2.50;
-const subtotal = 1.50;
-function calculateTotal(subtotal, shipping) {
+function calculateTotal(subtotal, shipping = 2.50) {
   return subtotal + shipping;
 };
-function printTopThreeHeadlines() {
-  return `firstHeadline \n secondHeadline \n thirdHeadline`;
+function printTopThreeHeadlines(...headlines) {
+  return headlines.slice(0, 3).join('\n');
 };
 result = printTopThreeHeadlines();
 document.getElementById("result").innerHTML = result;
