@@ -7,5 +7,5 @@ function printTopThreeHeadlines() {
   return `firstHeadline \n secondHeadline \n thirdHeadline`;
 }
 
-const result = return;
+const result = return function(printTopThreeHeadlines);
 document.getElementById('result').innerHTML = result;
