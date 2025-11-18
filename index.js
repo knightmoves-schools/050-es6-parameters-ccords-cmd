@@ -6,5 +6,5 @@ function printTopThreeHeadlines(...value) {
   return value[0] + value[1] + value[2];
 }
 const value = (`firstheadline \n secondheadline \n thirdheadline`);
-let result = return printTopThreeHeadlines(...value);
+const result = printTopThreeHeadlines(value);
 document.getElementById('result').innerHTML = result;
