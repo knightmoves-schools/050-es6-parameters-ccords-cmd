@@ -13,4 +13,4 @@ let headlinesOutput = printTopThreeHeadlines(
   "Tech News: New Smartphone Released"
 );
 
-document.getElementById("result").innerHTML = result;
+document.getElementById("result").innerHTML = 'Total: $${total}<br><pre>${headlinesOutput}</pre>';
